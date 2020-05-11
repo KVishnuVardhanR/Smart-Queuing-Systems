@@ -3,7 +3,7 @@
 
 ## Hardware Proposal
 **The Scenarios**:
-- We've provided three different scenarios that depict real-world problems based on different sectors where edge devices are typically deployed.
+- There are three different scenarios that depict real-world problems based on different sectors where edge devices are typically deployed.
 
 - The three scenarios you'll be looking at are:
 
@@ -12,7 +12,7 @@
   - Scenario 3: Transportation Sector
 
 - **Hardware Proposal**:
-  - All of the scenarios involve people in queues, but each scenario will require different hardware. So we have to determine which hardware might work for each scenario.Later, after you've built and tested your application on each hardware device for all three scenarios, you'll review the results and propose the devices in the proposal document.
+  - All of the scenarios involve people in queues, but each scenario will require different hardware. So we have to determine which hardware might work for each scenario.Later, after you've built and tested your application on each hardware device for all three scenarios, you'll review the results and propose the devices in the proposal template.
 
 ## Scenario 1: Manufacturing Sector
 Mr. Vishwas is the VP of Engineering at Naomi Semiconductors, a manufacturer known for its industrial-grade standard in producing semiconductor chips. Recently, the company has been venturing into Intel Pentium 4/3000 chip production—and they want to maximize their revenue in this venture. Their other chips in the last year have earned them two million dollars alone. With such good revenue, their expansion into the Intel Pentium 4/3000 industry is an obvious next step.
@@ -72,3 +72,14 @@ They monitor the entire situation with 7 CCTV cameras on the platform. These are
 Now that you have an initial hypothesis about what hardware might work for the client, it's time to test it and see how it performs!
 
 We'll use Jupyter notebooks where you can build out the smart queuing application and test its performance on all four different hardware types **(CPU, IGPU, VPU, and FPGA)** using **Intel DevCloud.**
+
+There are two important tasks we need to do before testing our hardware:
+ - First, **Create A Python Script** to load models and perform inference on each device given to it.
+ - Second,**Create A Job Submission Script** to submit jobs to Intel's DevCloud to load and run inference on each type of hardware and then review the results.
+
+## Results
+After testing each scenario with different hardware and reviewing the results like, model loading time, model inference time and number of **FPS(Frames per second)**, we will be detail it in the proposal template which satisfies the clients needs.
+
+## Resources
+To get started with **Intel DevCloud** click the [Link](https://devcloud.intel.com/edge/)
+ 
