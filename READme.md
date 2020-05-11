@@ -78,7 +78,7 @@ There are two important tasks we need to do before testing our hardware:
  - Second,**Create A Job Submission Script** to submit jobs to Intel's DevCloud to load and run inference on each type of hardware and then review the results.
 
 ## Results
-After testing each scenario with different hardware and reviewing the results like, model loading time, model inference time and number of **FPS(Frames per second)**, we will be detail it in the proposal template which satisfies the clients needs.
+After testing each scenario with different hardware and reviewing the results like, model loading time, model inference time and number of FPS(Frames per second), we will detail it in the proposal template which satisfies the clients needs.
 
 ## Resources
 To get started with **Intel DevCloud** click the [Link](https://devcloud.intel.com/edge/)
